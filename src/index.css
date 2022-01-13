@@ -1,13 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 10px 40px;
+  width: 600px;
+  margin-left: 450px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  background-color: rgba(151, 243, 159, 0.322);
+  text-align: center;
+  padding: 10px;
+}
+.search-book {
+  margin: 10px 0;
+  padding: 7px;
+}
+h1 {
+  font-family: "Patrick Hand", cursive;
+  margin: 0;
+}
+.detail h2 {
+  font-family: "Love Ya Like A Sister", cursive;
+  font-size: 30px;
+  margin: 0%;
+}
+.books-detail {
+  display: flex;
+}
+.book-cover {
+  padding: 10px 10px 10px 30px;
+}
+img {
+  height: 150px;
+  content: cover;
+  width: 100%;
+}
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+.detail h3 {
+  padding: 0;
 }
